@@ -1,0 +1,47 @@
+site_name: Amoklauf.ch
+site_url: https://amoklauf.ch
+site_description: Docker Linux Synology and other things
+site_author: Gabe
+
+repo_url: https://github.com/amoklauf-ch/site
+repo_name: Site
+
+edit_uri: ""
+theme:
+  name: 'material'
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: indigio
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      accent: indigio
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+#  palette:
+#    scheme: slate
+#    primary: deep purple
+  features:
+    - search.highlight
+    - search.share
+#  logo: assets/logo.png
+#  favicon: images/favicon.png
+extra:
+  homepage: https://amoklauf.ch
+    
+nav:
+    - Home: index.md
+    
+    
+plugins:
+  - search
+#  - git-revision-date-localized:
+#      type: datetime
+#      locale: en
+      
