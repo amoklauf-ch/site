@@ -1,1 +1,0 @@
-# These are a few Docker-Compose examples for reference
