@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Welcome to Amoklauf.ch
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+*A swiss army knife like collection of little code snippets, examples, or commands you need to look up from time to time. That and stuff, i just wanted to write down*
 
-Testbuild
 
-## Commands
+## How
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This page is hosted on GH with an automated workflow to build it in mkdocs, hopefully it works like i hope for. ;)
 
 ## Project layout
+
+tbd and stuff
 
     mkdocs.yml    # The configuration file.
     docs/
