@@ -34,14 +34,12 @@ theme:
 #  favicon: images/favicon.png
 extra:
   homepage: https://amoklauf.ch
-    
+
 nav:
-    - Home: index.md
-    
-    
+  - Home: index.md
+
 plugins:
   - search
 #  - git-revision-date-localized:
 #      type: datetime
 #      locale: en
-      
