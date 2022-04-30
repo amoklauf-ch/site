@@ -1,8 +1,8 @@
 # Welcome to Amoklauf.ch
 
-# Intro
+## Intro
 
-*A swiss army knife like collection of little code snippets, examples, or commands you need to look up from time to time. That and stuff, i just wanted to write down*
+*A swiss army knife like collection of little code snippets, examples, or commands you need to look up from time to time. That and stuff, i just wanted to write down.*
 
 ## How
 
