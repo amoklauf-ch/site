@@ -10,4 +10,9 @@
          <lastmod>2022-06-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://amoklauf.ch/pihole/</loc>
+         <lastmod>2022-06-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
