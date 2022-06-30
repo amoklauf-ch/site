@@ -37,6 +37,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Notifiarr: notifiarr.md
 
 plugins:
   - search
