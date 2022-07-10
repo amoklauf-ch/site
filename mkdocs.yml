@@ -38,16 +38,12 @@ extra:
 nav:
   - Home: index.md
   - Notifiarr: notifiarr.md
-  - Pullio Icons: generated/icons
 
 plugins:
   - search
   - git-revision-date-localized:
       type: datetime
       locale: en
-  - gallery:
-      examples_dirs: docs/img          # path to icons
-      gallery_dirs: docs/generated/icons  # where to save generated gallery
 
 markdown_extensions:
   - admonition
