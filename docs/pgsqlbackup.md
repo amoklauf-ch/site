@@ -1,2 +1,3 @@
-
---8<-- "hq-web-scene.json"
+``` title="hq-web-scene.json"
+--8<--​ "hq-web-scene.json"
+```
