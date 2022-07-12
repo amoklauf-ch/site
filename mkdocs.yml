@@ -38,6 +38,7 @@ extra:
 nav:
   - Home: index.md
   - Notifiarr: notifiarr.md
+  - PostGres: pgsqlbackup.md
 
 plugins:
   - search
