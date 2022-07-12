@@ -311,7 +311,48 @@
 
   <h1>PostGres</h1>
 
-<div class="highlight"><span class="filename">hq-web-scene.json</span><pre><span></span><code>--8&lt;--​ &quot;docs/hq-web-scene.json&quot;
+<div class="highlight"><span class="filename">hq-web-scene.json</span><pre><span></span><code>{
+  &quot;name&quot;: &quot;HQ WEB Scene&quot;,
+  &quot;includeCustomFormatWhenRenaming&quot;: false,
+  &quot;specifications&quot;: [
+    {
+      &quot;name&quot;: &quot;DEFLATE&quot;,
+      &quot;implementation&quot;: &quot;ReleaseTitleSpecification&quot;,
+      &quot;negate&quot;: false,
+      &quot;required&quot;: false,
+      &quot;fields&quot;: {
+        &quot;value&quot;: &quot;-DEFLATE\\b&quot;
+      }
+    },
+    {
+      &quot;name&quot;: &quot;INFLATE&quot;,
+      &quot;implementation&quot;: &quot;ReleaseTitleSpecification&quot;,
+      &quot;negate&quot;: false,
+      &quot;required&quot;: false,
+      &quot;fields&quot;: {
+        &quot;value&quot;: &quot;-INFLATE\\b&quot;
+      }
+    },
+    {
+      &quot;name&quot;: &quot;WEBDL&quot;,
+      &quot;implementation&quot;: &quot;SourceSpecification&quot;,
+      &quot;negate&quot;: false,
+      &quot;required&quot;: false,
+      &quot;fields&quot;: {
+        &quot;value&quot;: 3
+      }
+    },
+    {
+      &quot;name&quot;: &quot;WEBRIP&quot;,
+      &quot;implementation&quot;: &quot;SourceSpecification&quot;,
+      &quot;negate&quot;: false,
+      &quot;required&quot;: false,
+      &quot;fields&quot;: {
+        &quot;value&quot;: 4
+      }
+    }
+  ]
+}
 </code></pre></div>
 
   <hr>
@@ -319,7 +360,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 12, 2022 17:46:30</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 12, 2022 17:59:05</span>
       
     
   </small>
